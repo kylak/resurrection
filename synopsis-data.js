@@ -30,7 +30,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Quelques jours avant la Pâque - Trahison de Judas",
+        title: "Quelques jours avant la Pâque - Accord entre Judas et les chefs religieux",
         passages: {
             mt: { ref: "Mt 26:14-16", text: "Alors ayant été allé un des douze, celui étant dit Iouda Iskariote, vers les chefs sacrificateurs il dit· Que voulez-vous me donner, et moi je vous le transmettrai ? Ceux-ci cependant dressèrent pour lui trente objets d'argents. et dès lors il cherchait un moment de bien afin qu'il le transmette." },
             mc: { ref: "Mc 14:10-11", text: "Et Iouda Iskariote l'un des douze éloigna vers les chefs sacrificateurs afin qu'il le leur transmette. Ceux-ci cependant ayants écoutés furent joyeux et lui promirent de donner objet d'argent. Et il cherchait comment en bien moment qu'il le transmette." },
@@ -75,7 +75,7 @@ const synopsisData = [
         }
     },
     {
-        title: "La Cène - Annonce de la trahison (après l'institution)",
+        title: "La Cène - Judas quitte la Cène",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "", text: "" },
