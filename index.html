@@ -201,20 +201,23 @@
 		    cell.style.padding = '8px';
 		    cell.style.verticalAlign = 'top';
 		    
-		    const ref = document.createElement('div');
-		    ref.style.fontWeight = 'bold';
-		    ref.style.marginBottom = '4px';
-		    ref.textContent = event.passages[gospel].ref;
-		    cell.appendChild(ref);
+		    if (event.passages[gospel].ref && event.passages[gospel].ref.trim() !== '') {
+			const ref = document.createElement('div');
+			ref.style.fontWeight = 'bold';
+			ref.style.marginBottom = '4px';
+			ref.textContent = event.passages[gospel].ref;
+			cell.appendChild(ref);
+		    }
 		    
 		    const text = document.createElement('div');
 		    text.style.fontSize = '0.9em';
 		    text.style.color = '#666';
-		    if (event.passages[gospel].text) {
+		    if (event.passages[gospel].text && event.passages[gospel].text.trim() !== '') {
 			text.textContent = event.passages[gospel].text;
 		    } else {
-			text.textContent = '(Texte à extraire de trad-francaise.html)';
+			text.textContent = '-';
 			text.style.fontStyle = 'italic';
+			text.style.color = '#999';
 		    }
 		    cell.appendChild(text);
 		    
