@@ -118,9 +118,33 @@
 		troisième jour, cf. tous les autres passages). Ces passages ci-dessus concernant la résurrection ne précisent pas combien de temps il resta dans 
 		le sein de la terre le troisième jour, si c'est par exemple 2 secondes, 40 minutes, ou 8 heures.
 	</p>
+	<p>Deux questions peuvent se poser maintenant :</p>
+	<ol>
+		<li>quel jour de la semaine le Seigneur ressuscita.</li>
+		<li>combien de temps environ le Seigneur resta-t-il dans le tombeau le troisième jour, plutôt 2 minutes ou plutôt 8 heures ?</li>
+	</ol>
 	<p>
-		Deux questions peuvent se poser maintenant : quel jour de la semaine le Seigneur ressuscita, et: combien de temps environ le Seigneur resta-t-il dans le
-		tombeau le troisième jour, plutôt 2 minutes ou plutôt 8 heures ?
+		<strong>quel jour de la semaine le Seigneur ressuscita?</strong><br>
+		<!-- ici -->
+		<div id="synopsis-container">
+			<h2 onclick="toggleSynopsis()" style="cursor: pointer;">Synopsis des évangiles (Mt 26-28, Mc 14-16, Lc 22-24, Jn 12-20)</h2>
+			<div id="synopsis-content" style="display: none;">
+				<table id="synopsis-table" style="width: 100%; border-collapse: collapse;">
+					<thead>
+						<tr>
+							<th style="border: 1px solid #ccc; padding: 8px; background-color: #f0f0f0;">Événement</th>
+							<th style="border: 1px solid #ccc; padding: 8px; background-color: #f0f0f0;">Mt 26-28</th>
+							<th style="border: 1px solid #ccc; padding: 8px; background-color: #f0f0f0;">Mc 14-16</th>
+							<th style="border: 1px solid #ccc; padding: 8px; background-color: #f0f0f0;">Lc 22-24</th>
+							<th style="border: 1px solid #ccc; padding: 8px; background-color: #f0f0f0;">Jn 12-20</th>
+						</tr>
+					</thead>
+					<tbody id="synopsis-tbody">
+						<!-- Le contenu sera généré par JavaScript -->
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</p>
     </main>
     <footer>
@@ -130,6 +154,7 @@
 		auteur: gustav.
 	</p>
     </footer>
+    <script src="synopsis-data.js"></script>
     <script>
 	function toggleSection(sectionId) {
 	    const content = document.getElementById('content-' + sectionId);
@@ -140,6 +165,64 @@
 	    } else {
 		content.style.display = 'block';
 	    }
+	}
+	
+	function toggleSynopsis() {
+	    const content = document.getElementById('synopsis-content');
+	    const computedStyle = window.getComputedStyle(content);
+	    const isVisible = computedStyle.display !== 'none';
+	    if (isVisible) {
+		content.style.display = 'none';
+	    } else {
+		content.style.display = 'block';
+		populateSynopsisTable();
+	    }
+	}
+	
+	function populateSynopsisTable() {
+	    const tbody = document.getElementById('synopsis-tbody');
+	    if (tbody.children.length > 0) return; // Déjà peuplé
+	    
+	    synopsisData.forEach(event => {
+		const row = document.createElement('tr');
+		
+		// Colonne événement
+		const eventCell = document.createElement('td');
+		eventCell.style.border = '1px solid #ccc';
+		eventCell.style.padding = '8px';
+		eventCell.style.fontWeight = 'bold';
+		eventCell.textContent = event.title;
+		row.appendChild(eventCell);
+		
+		// Colonnes pour chaque évangile
+		['mt', 'mc', 'lc', 'jn'].forEach(gospel => {
+		    const cell = document.createElement('td');
+		    cell.style.border = '1px solid #ccc';
+		    cell.style.padding = '8px';
+		    cell.style.verticalAlign = 'top';
+		    
+		    const ref = document.createElement('div');
+		    ref.style.fontWeight = 'bold';
+		    ref.style.marginBottom = '4px';
+		    ref.textContent = event.passages[gospel].ref;
+		    cell.appendChild(ref);
+		    
+		    const text = document.createElement('div');
+		    text.style.fontSize = '0.9em';
+		    text.style.color = '#666';
+		    if (event.passages[gospel].text) {
+			text.textContent = event.passages[gospel].text;
+		    } else {
+			text.textContent = '(Texte à extraire de trad-francaise.html)';
+			text.style.fontStyle = 'italic';
+		    }
+		    cell.appendChild(text);
+		    
+		    row.appendChild(cell);
+		});
+		
+		tbody.appendChild(row);
+	    });
 	}
     </script>
 </body>
