@@ -592,7 +592,7 @@ const synopsisData = [
         passages: {
             mt: { ref: "Mt 26:67-68", text: "Alors ils envers-crachèrent envers sa face et le tabassèrent, ceux-ci cependant giflèrent disants· Prophétise-nous, Christ, qui est celui t'ayant frappé ?" },
             mc: { ref: "Mc 14:65", text: "Et originèrent des quelconques cracher envers lui et lui couvrir autour la face et le tabasser et lui dire· Prophétise, et les ministres aux gifles le prirent." },
-            lc: { ref: "Lc 22:63-65", text: "Et les hommes ceux le tenants-ensemble l'enjouaient, pelants, et ayants-couverts-autour lui-même ils surinterrogeaient disants· Prophétise, quel est celui t'ayant frappé ? Et autres-différents nombreux blasphémants disaient envers lui." },
+            lc: { ref: "", text: "" },
             jn: { ref: "", text: "" }
         }
     },
