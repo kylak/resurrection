@@ -507,7 +507,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Troisième reniement de Pierre (une heure après) - Le coq chante",
+        title: "",
         passages: {
             mt: { ref: "cf. Mt 26:73-75", text: "" },
             mc: { ref: "cf. Mc 14:70b-72", text: "" },
@@ -597,7 +597,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Pierre dans la cour",
+        title: "Pierre (toujours) dans la cour",
         passages: {
             mt: { ref: "Mt 26:69a", text: "Le cependant Pierre était assis au-dehors dans la cour" },
             mc: { ref: "Mc 14:66a", text: "Et de étant Pierre vers le bas dans la cour" },
@@ -606,7 +606,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Reniement de Pierre - avec une jeune servante",
+        title: "",
         passages: {
             mt: { ref: "Mt 26:69b-70", text: "et il vint vers lui une jeune servante disante· Toi aussi tu étais avec Iésous du Galiléen. Celui-ci cependant nia en devers de tous disant· Je n'ai pas su quel tu dis." },
             mc: { ref: "Mc 14:66b-68", text: "se vient – une – des jeunes servantes du chef sacrificateur et ayante vue le Pierre se chauffant ayante regardée en lui elle dit· Toi aussi avec le Nazarénien tu étais du Iésous. Celui-ci cependant nia disant· Ni j'ai su ni je m'établis sûrement toi ce que tu dis. Et il sortit au-dehors envers le vestibule [et un coq voixa]." },
@@ -615,7 +615,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Deuxième reniement de Pierre",
+        title: "",
         passages: {
             mt: { ref: "Mt 26:71-72", text: "Ayant sorti cependant envers le portail un autre le vit et dit à ceux de là· Celui-ci était avec Iésous du Nazoréen. Et de nouveau nia avec serment en ce que je n'ai pas su l'être humain." },
             mc: { ref: "Mc 14:69-70a", text: "Et la jeune servante l'ayante vue origina de nouveau dire à ceux ayants dressés à côté en ce que celui-ci du sortant d'eux il est. Celui-ci cependant de nouveau niait." },
@@ -624,7 +624,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Troisième reniement de Pierre - Le coq chante",
+        title: "Troisième reniement de Pierre (environ 1h apres le dernier reniement)",
         passages: {
             mt: { ref: "Mt 26:73-75", text: "Peu après cependant ayants venus auprès ceux ayants dressés dirent au Pierre· Vraiment toi aussi au sortant d'eux tu es, car aussi ton bavardage te fait évident. Alors se origina anathématiser totalement et jurer en ce que je n'ai pas su l'être humain. Et directement un coq voixa. Et le Pierre fut fait mémoire de l'oral de Iésous ayant dit en ce que avant un coq de voixer trois fois tu me dénieras· Et ayant sorti au-dehors il pleura amèrement." },
             mc: { ref: "Mc 14:70b-72", text: "Et après un petit de nouveau ceux ayants dressés à côté disaient au Pierre· Vraiment du sortant d'eux tu es, car aussi Galiléen tu es. Celui-ci cependant origina anathématiser et jurer en ce que je n'ai pas su cet être humain-ci lequel vous dites. Et directement au sortant de deuxième fois un coq voixa. Et fut remémoré le Pierre l'oral comme lui dit le Iésous en ce que avant un coq de voixer deux fois trois fois tu me dénieras· Et ayant surjeté il pleurait." },
