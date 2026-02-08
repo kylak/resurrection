@@ -597,7 +597,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Pierre (toujours) dans la cour",
+        title: "",
         passages: {
             mt: { ref: "Mt 26:69a", text: "Le cependant Pierre était assis au-dehors dans la cour" },
             mc: { ref: "Mc 14:66a", text: "Et de étant Pierre vers le bas dans la cour" },
