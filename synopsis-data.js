@@ -507,7 +507,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Troisième reniement de Pierre - Le coq chante",
+        title: "Troisième reniement de Pierre (une heure après) - Le coq chante",
         passages: {
             mt: { ref: "cf. Mt 26:73-75", text: "" },
             mc: { ref: "cf. Mc 14:70b-72", text: "" },
