@@ -449,25 +449,70 @@ const synopsisData = [
             mt: { ref: "", text: "" },
             mc: { ref: "", text: "" },
             lc: { ref: "Lc 22:54a", text: "Ayants-pris-ensemble cependant lui-même, ils conduisirent et envers-conduisirent envers la maison d'habitation du chef-sacrificateur·" },
-            jn: { ref: "Jn 18:12-13", text: "La donc spirale et le chef de mille et les ministres des Ioudaiens prirent-ensemble le Iésous et le lièrent et conduisirent vers Anna premièrement· Car il était beau-père du Kaiapha, lequel était chef sacrificateur de cette année-là· Était cependant Kaiapha celui ayant conseillé aux Ioudaiens en-ce-que il confère – un – être-humain de détrépasser pour le peuple." }
+            jn: { ref: "Jn 18:12-14", text: "La donc spirale et le chef de mille et les ministres des Ioudaiens prirent-ensemble le Iésous et le lièrent et conduisirent vers Anna premièrement· Car il était beau-père du Kaiapha, lequel était chef sacrificateur de cette année-là· Était cependant Kaiapha celui ayant conseillé aux Ioudaiens en-ce-que il confère – un – être-humain de détrépasser pour le peuple." }
         }
     },
     {
-        title: "Pierre suit de loin",
+        title: "Pierre et un autre disciple suivent Jésus",
         passages: {
-            mt: { ref: "Mt 26:58a", text: "Le cependant Pierre le suivait de loin de lointain jusqu'à la cour du chef sacrificateur et ayant venu à l'intérieur dedans il était assis avec des ministres voir l'achèvement." },
-            mc: { ref: "Mc 14:54", text: "Et le Pierre de loin de lointain le suivit jusqu'au dedans envers la cour du chef sacrificateur et il était se co-asseyant avec des ministres et se chauffant vers la lumière." },
-            lc: { ref: "Lc 22:54b", text: "Le cependant Pierre suivait de lointain. D'ayants-allumés- autour cependant un feu dans le milieu de la cour et d'ayants faits-asseoir-ensemble, était-assis le Pierre au milieu d'eux." },
-            jn: { ref: "Jn 18:15-16", text: "Suivait cependant au Iésous Simon Pierre et un autre disciple. Le cependant disciple celui-là était connu au chef sacrificateur et il entra avec le Iésous envers la cour du chef-sacrificateur, le cependant Pierre avait-dressé vers la porte dehors. Il sortit donc le disciple l'autre lequel était connu du chef-sacrificateur et il dit à la portière et il envers-conduisit le Pierre." }
+            mt: { ref: "Mt 26:58a", text: "Le cependant Pierre le suivait de loin de lointain" },
+            mc: { ref: "Mc 14:54a", text: "Et le Pierre de loin de lointain le suivit" },
+            lc: { ref: "Lc 22:54b", text: "Le cependant Pierre suivait de lointain." },
+            jn: { ref: "Jn 18:15", text: "Suivait cependant au Iésous Simon Pierre et un autre disciple." }
         }
     },
     {
-        title: "Jésus devant Anne - Premier reniement de Pierre",
+        title: "Pierre devant la porte de la cour du chef sacrificateur",
         passages: {
-            mt: { ref: "cf. Mt 26:69-70", text: "" },
-            mc: { ref: "cf. Mc 14:66-68", text: "" },
-            lc: { ref: "cf. Lc 22:56-57", text: "" },
+            mt: { ref: "Mt 26:58b", text: "jusqu'à la cour du chef sacrificateur" },
+            mc: { ref: "", text: "" },
+            lc: { ref: "", text: "" },
+            jn: { ref: "Jn 18:15b-16a", text: "Le cependant disciple celui-là était connu au chef sacrificateur et il entra avec le Iésous envers la cour du chef-sacrificateur, le cependant Pierre avait-dressé vers la porte dehors." }
+        }
+    },
+    {
+        title: "Pierre conduit dans la cour",
+        passages: {
+            mt: { ref: "Mt 26:58c", text: "et ayant venu à l'intérieur dedans" },
+            mc: { ref: "Mc 14:54b", text: "jusqu'au dedans envers la cour du chef sacrificateur" },
+            lc: { ref: "", text: "" },
+            jn: { ref: "Jn 18:16b", text: "Il sortit donc le disciple l'autre lequel était connu du chef-sacrificateur et il dit à la portière et il envers-conduisit le Pierre." }
+        }
+    },
+    {
+        title: "Pierre assis avec les ministres dans la cour près du feu",
+        passages: {
+            mt: { ref: "Mt 26:58d, cf. Mt 26:69a", text: "il était assis avec des ministres voir l'achèvement." },
+            mc: { ref: "Mc 14:54c, cf. Mc 14:66a", text: "et il était se co-asseyant avec des ministres et se chauffant vers la lumière." },
+            lc: { ref: "Lc 22:55", text: "D'ayants-allumés- autour cependant un feu dans le milieu de la cour et d'ayants faits-asseoir-ensemble, était-assis le Pierre au milieu d'eux." },
+            jn: { ref: "", text: "" }
+        }
+    },
+    {
+        title: "Premier reniement de Pierre",
+        passages: {
+            mt: { ref: "cf. Mt 26:69b-70", text: "" },
+            mc: { ref: "cf. Mc 14:66b-68", text: "" },
+            lc: { ref: "Lc 22:56-57", text: "Ayante-vue cependant lui-même une jeune-servante quelconque étant-assis vers la lumière et ayante-regardée-fixement à lui-même elle dit· Aussi celui-ci avec lui-même il était. Celui-ci cependant se nia disant· Non j'ai su lui-même, femme." },
             jn: { ref: "Jn 18:17-18", text: "Dit donc la jeune-servante la portière au Pierre· Pas aussi toi issu des disciples tu es de cet être-humain-ci ? Dit celui-là· Non je suis. Avaient-dressé cependant les mâles-esclaves et les ministres une braise ayants-faits, en-ce-que froid il était, et ils se chauffaient· Était cependant aussi le Pierre avec eux ayant-dressé et se chauffant." }
+        }
+    },
+    {
+        title: "Deuxième reniement de Pierre",
+        passages: {
+            mt: { ref: "cf. Mt 26:71-72", text: "" },
+            mc: { ref: "cf. Mc 14:69-70a", text: "" },
+            lc: { ref: "Lc 22:58", text: "Et après un court, un autre-différent ayant-vu lui-même déclarait· Aussi toi issu d'eux tu es. Le cependant Pierre déclarait· Être-humain, non je suis." },
+            jn: { ref: "cf. Jn 18:25", text: "" }
+        }
+    },
+    {
+        title: "Troisième reniement de Pierre - Le coq chante",
+        passages: {
+            mt: { ref: "cf. Mt 26:73-75", text: "" },
+            mc: { ref: "cf. Mc 14:70b-72", text: "" },
+            lc: { ref: "Lc 22:59-62", text: "Et d'ayante-dressée-à-travers comme-si d'heure d'– une –, un autre quelconque s'insistait-tenacement disant· Sur vérité aussi celui-ci avec lui il était, car aussi Galiléen il est. Dit cependant le Pierre· Être-humain, non j'ai su ce que tu dis. Et instantanément encore de bavardant de lui-même, [que] voixa [le] coq. Et ayant-été-tourné le Maître entra-regard au Pierre, et fut fait-mémoire-du-dessous le Pierre de l'oral du Maître comme il lui dit en-ce-que avant coq voixer aujourd'hui tu me dénieras trois fois. Et ayant-sorti dehors il pleura amèrement." },
+            jn: { ref: "cf. Jn 18:26-27", text: "" }
         }
     },
     {
@@ -480,6 +525,15 @@ const synopsisData = [
         }
     },
     {
+        title: "Jésus maltraité par les gardes chez Anne",
+        passages: {
+            mt: { ref: "", text: "" },
+            mc: { ref: "", text: "" },
+            lc: { ref: "Lc 22:63-65", text: "Et les hommes ceux le tenants-ensemble l'enjouaient, pelants, et ayants-couverts-autour lui-même ils surinterrogeaient disants· Prophétise, quel est celui t'ayant frappé ? Et autres-différents nombreux blasphémants disaient envers lui." },
+            jn: { ref: "", text: "" }
+        }
+    },
+    {
         title: "Jésus giflé par un garde",
         passages: {
             mt: { ref: "", text: "" },
@@ -489,12 +543,21 @@ const synopsisData = [
         }
     },
     {
-        title: "Jésus envoyé vers Caïphe et le Sanhédrin",
+        title: "Jésus envoyé vers Caïphe",
+        passages: {
+            mt: { ref: "", text: "" },
+            mc: { ref: "", text: "" },
+            lc: { ref: "", text: "" },
+            jn: { ref: "Jn 18:24", text: "Envoya donc lui-même le Anna ayant-été-lié vers Kaiapha le chef-sacrificateur." }
+        }
+    },
+    {
+        title: "Jésus déconduit vers le Sanhédrin",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "", text: "" },
             lc: { ref: "Lc 22:66", text: "Et comme il se devint journée, fut mené-ensemble le groupe des plus-anciens du peuple, chefs-sacrificateurs en outre et lettrés, et ils le déconduisirent envers leur sanhédrin disants· " },
-            jn: { ref: "Jn 18:24", text: "Envoya donc lui-même le Anna ayant-été-lié vers Kaiapha le chef-sacrificateur." }
+            jn: { ref: "", text: "" }
         }
     },
     {
@@ -525,7 +588,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Jésus maltraité par les gardes",
+        title: "Jésus maltraité par les gardes dans le Sanhédrin",
         passages: {
             mt: { ref: "Mt 26:67-68", text: "Alors ils envers-crachèrent envers sa face et le tabassèrent, ceux-ci cependant giflèrent disants· Prophétise-nous, Christ, qui est celui t'ayant frappé ?" },
             mc: { ref: "Mc 14:65", text: "Et originèrent des quelconques cracher envers lui et lui couvrir autour la face et le tabasser et lui dire· Prophétise, et les ministres aux gifles le prirent." },
@@ -534,12 +597,21 @@ const synopsisData = [
         }
     },
     {
+        title: "Pierre dans la cour",
+        passages: {
+            mt: { ref: "Mt 26:69a", text: "Le cependant Pierre était assis au-dehors dans la cour" },
+            mc: { ref: "Mc 14:66a", text: "Et de étant Pierre vers le bas dans la cour" },
+            lc: { ref: "cf. Lc 22:55", text: "" },
+            jn: { ref: "cf. Jn 18:16b", text: "" }
+        }
+    },
+    {
         title: "Reniement de Pierre - avec une jeune servante",
         passages: {
-            mt: { ref: "Mt 26:69-70", text: "Le cependant Pierre était assis au-dehors dans la cour· Et vint vers lui une jeune servante disante· Toi aussi tu étais avec Iésous du Galiléen. Celui-ci cependant nia en devers de tous disant· Je n'ai pas su quel tu dis." },
-            mc: { ref: "Mc 14:66-68", text: "Et de étant Pierre vers le bas dans la cour se vient – une – des jeunes servantes du chef sacrificateur et ayante vue le Pierre se chauffant ayante regardée en lui elle dit· Toi aussi avec le Nazarénien tu étais du Iésous. Celui-ci cependant nia disant· Ni j'ai su ni je m'établis sûrement toi ce que tu dis. Et il sortit au-dehors envers le vestibule [et un coq voixa]." },
-            lc: { ref: "Lc 22:56-57", text: "Ayante-vue cependant lui-même une jeune-servante quelconque étant-assis vers la lumière et ayante-regardée-fixement à lui-même elle dit· Aussi celui-ci avec lui-même il était. Celui-ci cependant se nia disant· Non j'ai su lui-même, femme." },
-            jn: { ref: "cf. Jn 18:17-18", text: "" }
+            mt: { ref: "Mt 26:69b-70", text: "et il vint vers lui une jeune servante disante· Toi aussi tu étais avec Iésous du Galiléen. Celui-ci cependant nia en devers de tous disant· Je n'ai pas su quel tu dis." },
+            mc: { ref: "Mc 14:66b-68", text: "se vient – une – des jeunes servantes du chef sacrificateur et ayante vue le Pierre se chauffant ayante regardée en lui elle dit· Toi aussi avec le Nazarénien tu étais du Iésous. Celui-ci cependant nia disant· Ni j'ai su ni je m'établis sûrement toi ce que tu dis. Et il sortit au-dehors envers le vestibule [et un coq voixa]." },
+            lc: { ref: "cf. Lc 22:56-57", text: "" },
+            jn: { ref: "cf. Jn 18:17", text: "" }
         }
     },
     {
@@ -547,7 +619,7 @@ const synopsisData = [
         passages: {
             mt: { ref: "Mt 26:71-72", text: "Ayant sorti cependant envers le portail un autre le vit et dit à ceux de là· Celui-ci était avec Iésous du Nazoréen. Et de nouveau nia avec serment en ce que je n'ai pas su l'être humain." },
             mc: { ref: "Mc 14:69-70a", text: "Et la jeune servante l'ayante vue origina de nouveau dire à ceux ayants dressés à côté en ce que celui-ci du sortant d'eux il est. Celui-ci cependant de nouveau niait." },
-            lc: { ref: "Lc 22:58", text: "Et après un court, un autre-différent ayant-vu lui-même déclarait· Aussi toi issu d'eux tu es. Le cependant Pierre déclarait· Être-humain, non je suis." },
+            lc: { ref: "cf. Lc 22:58", text: "" },
             jn: { ref: "Jn 18:25", text: "Était cependant Simon Pierre ayant-dressé et se chauffant. Ils lui dirent donc· Ne-pas aussi toi issu de ses disciples es-tu ? Nia celui-là et dit· Non je suis." }
         }
     },
@@ -556,7 +628,7 @@ const synopsisData = [
         passages: {
             mt: { ref: "Mt 26:73-75", text: "Peu après cependant ayants venus auprès ceux ayants dressés dirent au Pierre· Vraiment toi aussi au sortant d'eux tu es, car aussi ton bavardage te fait évident. Alors se origina anathématiser totalement et jurer en ce que je n'ai pas su l'être humain. Et directement un coq voixa. Et le Pierre fut fait mémoire de l'oral de Iésous ayant dit en ce que avant un coq de voixer trois fois tu me dénieras· Et ayant sorti au-dehors il pleura amèrement." },
             mc: { ref: "Mc 14:70b-72", text: "Et après un petit de nouveau ceux ayants dressés à côté disaient au Pierre· Vraiment du sortant d'eux tu es, car aussi Galiléen tu es. Celui-ci cependant origina anathématiser et jurer en ce que je n'ai pas su cet être humain-ci lequel vous dites. Et directement au sortant de deuxième fois un coq voixa. Et fut remémoré le Pierre l'oral comme lui dit le Iésous en ce que avant un coq de voixer deux fois trois fois tu me dénieras· Et ayant surjeté il pleurait." },
-            lc: { ref: "Lc 22:59-62", text: "Et d'ayante-dressée-à-travers comme-si d'heure d'– une –, un autre quelconque s'insistait-tenacement disant· Sur vérité aussi celui-ci avec lui il était, car aussi Galiléen il est. Dit cependant le Pierre· Être-humain, non j'ai su ce que tu dis. Et instantanément encore de bavardant de lui-même, [que] voixa [le] coq. Et ayant-été-tourné le Maître entra-regard au Pierre, et fut fait-mémoire-du-dessous le Pierre de l'oral du Maître comme il lui dit en-ce-que avant coq voixer aujourd'hui tu me dénieras trois fois. Et ayant-sorti dehors il pleura amèrement." },
+            lc: { ref: "cf. Lc 22:59-62", text: "" },
             jn: { ref: "Jn 18:26-27", text: "Dit – un – issu des mâles-esclaves du chef-sacrificateur, congénital étant duquel découpa Pierre le bout d'oreille· Non moi toi je vis en le jardin avec lui ? De-nouveau donc nia Pierre, et directement coq voixa." }
         }
     },
@@ -564,8 +636,8 @@ const synopsisData = [
         title: "Conseil du matin",
         passages: {
             mt: { ref: "Mt 27:1-2", text: "De Matinée cependant se ayante devenue prirent conseil tous les chefs sacrificateurs et les plus anciens du peuple contre le Iésous de sorte qu'ils le mettre à trépas· Et l'ayants lié déconduisirent et transmirent au Pilatus gouverneur." },
-            mc: { ref: "Mc 15:1", text: "Et directement matinalement ayants faits conseil les chefs sacrificateurs avec les plus anciens et des lettrés et le sanhédrin tout entier, ayants liés le Iésous ils déportèrent et transmirent à Pilatus." },
-            lc: { ref: "Lc 22:66a", text: "Et comme il se devint journée," },
+            mc: { ref: "Mc 15:1", text: "Et directement – matinalement – ayants faits conseil les chefs sacrificateurs avec les plus anciens et des lettrés et le sanhédrin tout entier, ayants liés le Iésous ils déportèrent et transmirent à Pilatus." },
+            lc: { ref: "", text: "" },
             jn: { ref: "Jn 18:28a", text: "Ils conduisent donc le Iésous du-partir du Kaiapha envers le prétoire· Était cependant matinalement·" }
         }
     },
