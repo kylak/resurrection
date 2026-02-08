@@ -498,39 +498,12 @@ const synopsisData = [
         }
     },
     {
-        title: "Deuxième reniement de Pierre",
-        passages: {
-            mt: { ref: "cf. Mt 26:71-72", text: "" },
-            mc: { ref: "cf. Mc 14:69-70a", text: "" },
-            lc: { ref: "Lc 22:58", text: "Et après un court, un autre-différent ayant-vu lui-même déclarait· Aussi toi issu d'eux tu es. Le cependant Pierre déclarait· Être-humain, non je suis." },
-            jn: { ref: "cf. Jn 18:25", text: "" }
-        }
-    },
-    {
-        title: "",
-        passages: {
-            mt: { ref: "cf. Mt 26:73-75", text: "" },
-            mc: { ref: "cf. Mc 14:70b-72", text: "" },
-            lc: { ref: "Lc 22:59-62", text: "Et d'ayante-dressée-à-travers comme-si d'heure d'– une –, un autre quelconque s'insistait-tenacement disant· Sur vérité aussi celui-ci avec lui il était, car aussi Galiléen il est. Dit cependant le Pierre· Être-humain, non j'ai su ce que tu dis. Et instantanément encore de bavardant de lui-même, [que] voixa [le] coq. Et ayant-été-tourné le Maître entra-regard au Pierre, et fut fait-mémoire-du-dessous le Pierre de l'oral du Maître comme il lui dit en-ce-que avant coq voixer aujourd'hui tu me dénieras trois fois. Et ayant-sorti dehors il pleura amèrement." },
-            jn: { ref: "cf. Jn 18:26-27", text: "" }
-        }
-    },
-    {
         title: "Jésus interrogé par Anne",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "", text: "" },
             lc: { ref: "", text: "" },
             jn: { ref: "Jn 18:19-21", text: "Le donc chef sacrificateur interrogea le Iésous autour de ses disciples et autour de son enseignement. Il lui répondit Iésous· Moi à oralité franche j'ai bavardé au monde, moi en tout moment j'enseignai en synagogue et en le sanctuaire, là où tous les Ioudaiens se viennent-ensemble, et en caché je bavardai non même – un –. Pourquoi me interroges-tu ? Interroge ceux ayants-écoutés quel-chose je leur bavardai· Voici ceux-ci ont su les choses que je dis moi." }
-        }
-    },
-    {
-        title: "Jésus maltraité par les gardes chez Anne",
-        passages: {
-            mt: { ref: "", text: "" },
-            mc: { ref: "", text: "" },
-            lc: { ref: "Lc 22:63-65", text: "Et les hommes ceux le tenants-ensemble l'enjouaient, pelants, et ayants-couverts-autour lui-même ils surinterrogeaient disants· Prophétise, quel est celui t'ayant frappé ? Et autres-différents nombreux blasphémants disaient envers lui." },
-            jn: { ref: "", text: "" }
         }
     },
     {
@@ -549,6 +522,33 @@ const synopsisData = [
             mc: { ref: "", text: "" },
             lc: { ref: "", text: "" },
             jn: { ref: "Jn 18:24", text: "Envoya donc lui-même le Anna ayant-été-lié vers Kaiapha le chef-sacrificateur." }
+        }
+    },
+    {
+        title: "Deuxième reniement de Pierre",
+        passages: {
+            mt: { ref: "cf. Mt 26:71-72", text: "" },
+            mc: { ref: "cf. Mc 14:69-70a", text: "" },
+            lc: { ref: "Lc 22:58", text: "Et après un court, un autre-différent ayant-vu lui-même déclarait· Aussi toi issu d'eux tu es. Le cependant Pierre déclarait· Être-humain, non je suis." },
+            jn: { ref: "Jn 18:25", text: "Était cependant Simon Pierre ayant-dressé et se chauffant. Ils lui dirent donc· Ne-pas aussi toi issu de ses disciples es-tu ? Nia celui-là et dit· Non je suis." }
+        }
+    },
+    {
+        title: "",
+        passages: {
+            mt: { ref: "cf. Mt 26:73-75", text: "" },
+            mc: { ref: "cf. Mc 14:70b-72", text: "" },
+            lc: { ref: "Lc 22:59-62", text: "Et d'ayante-dressée-à-travers comme-si d'heure d'– une –, un autre quelconque s'insistait-tenacement disant· Sur vérité aussi celui-ci avec lui il était, car aussi Galiléen il est. Dit cependant le Pierre· Être-humain, non j'ai su ce que tu dis. Et instantanément encore de bavardant de lui-même, [que] voixa [le] coq. Et ayant-été-tourné le Maître entra-regard au Pierre, et fut fait-mémoire-du-dessous le Pierre de l'oral du Maître comme il lui dit en-ce-que avant coq voixer aujourd'hui tu me dénieras trois fois. Et ayant-sorti dehors il pleura amèrement." },
+            jn: { ref: "cf. Jn 18:26-27", text: "" }
+        }
+    },
+    {
+        title: "Jésus maltraité par les gardes chez Anne",
+        passages: {
+            mt: { ref: "", text: "" },
+            mc: { ref: "", text: "" },
+            lc: { ref: "Lc 22:63-65", text: "Et les hommes ceux le tenants-ensemble l'enjouaient, pelants, et ayants-couverts-autour lui-même ils surinterrogeaient disants· Prophétise, quel est celui t'ayant frappé ? Et autres-différents nombreux blasphémants disaient envers lui." },
+            jn: { ref: "", text: "" }
         }
     },
     {
@@ -620,7 +620,7 @@ const synopsisData = [
             mt: { ref: "Mt 26:71-72", text: "Ayant sorti cependant envers le portail un autre le vit et dit à ceux de là· Celui-ci était avec Iésous du Nazoréen. Et de nouveau nia avec serment en ce que je n'ai pas su l'être humain." },
             mc: { ref: "Mc 14:69-70a", text: "Et la jeune servante l'ayante vue origina de nouveau dire à ceux ayants dressés à côté en ce que celui-ci du sortant d'eux il est. Celui-ci cependant de nouveau niait." },
             lc: { ref: "cf. Lc 22:58", text: "" },
-            jn: { ref: "Jn 18:25", text: "Était cependant Simon Pierre ayant-dressé et se chauffant. Ils lui dirent donc· Ne-pas aussi toi issu de ses disciples es-tu ? Nia celui-là et dit· Non je suis." }
+            jn: { ref: "cf. Jn 18:25", text: "" }
         }
     },
     {
