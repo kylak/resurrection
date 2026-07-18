@@ -268,12 +268,12 @@ const synopsisData = [
         passages: {
             mt: { ref: "Mt 26:47", text: "Et encore de lui bavardant voici Iouda un des douze vint et avec lui une foule nombreuse avec des machettes et des bois à partir des chefs sacrificateurs et des plus anciens du peuple." },
             mc: { ref: "Mc 14:43", text: "Et directement encore de lui bavardant se devient à côté Iouda – un – des douze et avec lui une foule avec des machettes et des bois, à côté des chefs sacrificateurs et des lettrés et des plus anciens." },
-            lc: { ref: "Lc 22:47ab", text: "Encore de lui-même de bavardant [que] voici une foule, et celui étant dit Iouda – un – des douze se venait devant eux" },
+            lc: { ref: "Lc 22:47a,b", text: "Encore de lui-même de bavardant [que] voici une foule, et celui étant dit Iouda – un – des douze se venait devant eux" },
             jn: { ref: "Jn 18:2-3", text: "Il avait su cependant aussi Iouda – celui le transmettant – le lieu, en-ce-que nombreuses-fois fut-mené-ensemble Iésous là avec ses disciples. Le donc Iouda ayant-pris la spirale et issu {du-sortant} des chefs sacrificateurs et issu {du-sortant} des Pharisiens ministres il se vient là avec des lumineux et des lampes et des armes." }
         }
     },
     {
-        title: "Le mont des oliviers - Jésus sort et demande qui ils cherchent (Jean)",
+        title: "Le mont des oliviers - Jésus sort et demande qui ils cherchent",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "", text: "" },
@@ -282,7 +282,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Le mont des oliviers - Jésus dit 'Moi je suis' et ils tombent (Jean)",
+        title: "Le mont des oliviers - Jésus dit 'Moi je suis' et ils tombent",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "", text: "" },
@@ -291,7 +291,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Le mont des oliviers - Jésus protège ses disciples (Jean)",
+        title: "Le mont des oliviers - Jésus protège ses disciples",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "", text: "" },
@@ -327,7 +327,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Le mont des oliviers - Question des disciples sur l'usage de l'épée (Luc)",
+        title: "Le mont des oliviers - Question des disciples sur l'usage de l'épée",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "", text: "" },
@@ -336,7 +336,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Le mont des oliviers - Saisie de Jésus (Marc)",
+        title: "Le mont des oliviers - Saisie de Jésus",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "Mc 14:46", text: "Ceux-ci cependant lui surjetèrent les mains et le saisirent avec force." },
@@ -372,7 +372,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Le mont des oliviers - Jésus accepte la coupe (Jean)",
+        title: "Le mont des oliviers - Jésus accepte la coupe",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "", text: "" },
@@ -381,7 +381,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Le mont des oliviers - Jésus guérit l'oreille (Luc)",
+        title: "Le mont des oliviers - Jésus guérit l'oreille",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "", text: "" },
@@ -394,7 +394,7 @@ const synopsisData = [
         passages: {
             mt: { ref: "Mt 26:55", text: "En cette heure-là dit le Iésous aux foules· Comme sur un pilleur vous sortîtes avec des machettes et des bois me prendre ensemble ? Chaque journée en le sanctuaire je me siégeais enseignant et vous ne me saisîtes pas avec force." },
             mc: { ref: "Mc 14:48-49a", text: "Et ayant répondu le Iésous leur dit· Comme sur pilleur vous sortîtes avec des machettes et des bois me prendre ensemble ? Chaque journée je m'étais vers vous dans le sanctuaire enseignant et vous ne me saisîtes pas avec force·" },
-            lc: { ref: "Lc 22:52-53ab", text: "Dit cependant Iésous vers ceux s'ayants-devenus-à-côté sur lui-même, chefs sacrificateurs et stratèges du sanctuaire et plus anciens· Comme sur un pilleur vous sortîtes avec des machettes et des bois ? Chaque journée d'étant moi avec vous dans le sanctuaire non vous étendîtes les mains sur moi," },
+            lc: { ref: "Lc 22:52-53a,b", text: "Dit cependant Iésous vers ceux s'ayants-devenus-à-côté sur lui-même, chefs sacrificateurs et stratèges du sanctuaire et plus anciens· Comme sur un pilleur vous sortîtes avec des machettes et des bois ? Chaque journée d'étant moi avec vous dans le sanctuaire non vous étendîtes les mains sur moi," },
             jn: { ref: "", text: "" }
         }
     },
@@ -426,7 +426,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Le mont des oliviers - L'adolescent qui fuit (Marc)",
+        title: "Le mont des oliviers - Un adolescent fuit",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "Mc 14:51-52", text: "Et un quelconque adolescent le co-suivait ayant été entouré d'un sindon sur de nu, et ils le saisissent avec force· Celui-ci cependant ayant laissé totalement la sindon nu il fuit." },
@@ -498,6 +498,16 @@ const synopsisData = [
         }
     },
     {
+        title: "La jeune servante influence un ensemble de personnes",
+        passages: {
+            mt: { ref: "", text: "" },
+            mc: { ref: "cf. Mc 14:69", text: "" },
+            lc: { ref: "", text: "" },
+            jn: { ref: "", text: "" }
+        }
+    },
+
+    {
         title: "Jésus interrogé par Anne",
         passages: {
             mt: { ref: "", text: "" },
@@ -525,21 +535,84 @@ const synopsisData = [
         }
     },
     {
-        title: "Deuxième reniement de Pierre",
+        title: "Un ensemble de personnes pressent Pierre",
         passages: {
-            mt: { ref: "cf. Mt 26:71-72", text: "" },
-            mc: { ref: "cf. Mc 14:69-70a", text: "" },
-            lc: { ref: "Lc 22:58", text: "Et après un court, un autre-différent ayant-vu lui-même déclarait· Aussi toi issu d'eux tu es. Le cependant Pierre déclarait· Être-humain, non je suis." },
-            jn: { ref: "Jn 18:25", text: "Était cependant Simon Pierre ayant-dressé et se chauffant. Ils lui dirent donc· Ne-pas aussi toi issu de ses disciples es-tu ? Nia celui-là et dit· Non je suis." }
+            mt: { ref: "", text: "" },
+            mc: { ref: "", text: "" },
+            lc: { ref: "", text: "" },
+            jn: { ref: "Jn 18:25a,b", text: "Était cependant Simon Pierre ayant-dressé et se chauffant. Ils lui dirent donc· Ne-pas aussi toi issu de ses disciples es-tu ?" }
         }
     },
     {
-        title: "",
+        title: "Pierre part du feu pour aller vers le portail",
         passages: {
-            mt: { ref: "cf. Mt 26:73-75", text: "" },
-            mc: { ref: "cf. Mc 14:70b-72", text: "" },
-            lc: { ref: "Lc 22:59-62", text: "Et d'ayante-dressée-à-travers comme-si d'heure d'– une –, un autre quelconque s'insistait-tenacement disant· Sur vérité aussi celui-ci avec lui il était, car aussi Galiléen il est. Dit cependant le Pierre· Être-humain, non j'ai su ce que tu dis. Et instantanément encore de bavardant de lui-même, [que] voixa [le] coq. Et ayant-été-tourné le Maître entra-regard au Pierre, et fut fait-mémoire-du-dessous le Pierre de l'oral du Maître comme il lui dit en-ce-que avant coq voixer aujourd'hui tu me dénieras trois fois. Et ayant-sorti dehors il pleura amèrement." },
-            jn: { ref: "cf. Jn 18:26-27", text: "" }
+            mt: { ref: "cf. Mt 26:71a", text: "" },
+            mc: { ref: "", text: "" },
+            lc: { ref: "", text: "" },
+            jn: { ref: "", text: "" }
+        }
+    },
+    {
+        title: "Une autre servante influence les personnes et presse Pierre",
+        passages: {
+            mt: { ref: "cf. Mt 26:71b", text: "" },
+            mc: { ref: "", text: "" },
+            lc: { ref: "", text: "" },
+            jn: { ref: "", text: "" }
+        }
+    },
+    {
+        title: "Deuxième reniement de Pierre, face à un homme",
+        passages: {
+            mt: { ref: "cf. Mt 26:72", text: "" },
+            mc: { ref: "cf. Mc 14:70a", text: "" },
+            lc: { ref: "Lc 22:58", text: "Et après un court, un autre-différent ayant-vu lui-même déclarait· Aussi toi issu d'eux tu es. Le cependant Pierre déclarait· Être-humain, non je suis." },
+            jn: { ref: "Jn 18:25c", text: "Nia celui-là et dit· Non je suis." }
+        }
+    },
+    {
+        title: "Peu après le deuxième reniement, Pierre à nouveau mis sous pression par un ensemble de personnes",
+        passages: {
+            mt: { ref: "cf. Mt 26:73", text: "" },
+            mc: { ref: "cf. Mc 14:70b", text: "" },
+            lc: { ref: "Lc 22:59a", text: "Et d'ayante-dressée-à-travers comme-si d'heure d'– une –, " },
+            jn: { ref: "", text: "" }
+        }
+    },
+    {
+        title: "Un proche de Malchus interroge Pierre",
+        passages: {
+            mt: { ref: "", text: "" },
+            mc: { ref: "", text: "" },
+            lc: { ref: "", text: "" },
+            jn: { ref: "Jn 18:26", text: "Dit – un – issu des mâles-esclaves du chef-sacrificateur, congénital étant duquel découpa Pierre le bout d'oreille· Non moi toi je vis en le jardin avec lui ?" }
+        }
+    },
+    {
+        title: "Pierre se fait solliciter avec insistance",
+        passages: {
+            mt: { ref: "", text: "" },
+            mc: { ref: "", text: "" },
+            lc: { ref: "Lc 22:59b", text: "un autre quelconque s'insistait-tenacement disant· Sur vérité aussi celui-ci avec lui il était, car aussi Galiléen il est." },
+            jn: { ref: "", text: "" }
+        }
+    },
+    {
+        title: "Troisième reniement de Pierre, le coq chante",
+        passages: {
+            mt: { ref: "cf. Mt 26:74", text: "" },
+            mc: { ref: "cf. Mc 14:71-72a", text: "" },
+            lc: { ref: "Lc 22:60", text: "Dit cependant le Pierre· Être-humain, non j'ai su ce que tu dis. Et instantanément encore de bavardant de lui-même, [que] voixa [le] coq." },
+            jn: { ref: "Jn 18:27", text: "De-nouveau donc nia Pierre, et directement coq voixa." }
+        }
+    },
+    {
+        title: "Jésus regarde Pierre, Pierre sort dehors et pleure",
+        passages: {
+            mt: { ref: "cf. Mt 26:75", text: "" },
+            mc: { ref: "cf. Mc 14:72b,c", text: "" },
+            lc: { ref: "Lc 22:61-62", text: "Et ayant-été-tourné le Maître entra-regard au Pierre, et fut fait-mémoire-du-dessous le Pierre de l'oral du Maître comme il lui dit en-ce-que avant coq voixer aujourd'hui tu me dénieras trois fois. Et ayant-sorti dehors il pleura amèrement." },
+            jn: { ref: "", text: "" }
         }
     },
     {
@@ -552,7 +625,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Jésus déconduit vers le Sanhédrin",
+        title: "Jésus déconduit vers le Sanhédrin, le jour étant venu",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "", text: "" },
@@ -617,19 +690,64 @@ const synopsisData = [
     {
         title: "",
         passages: {
-            mt: { ref: "Mt 26:71-72", text: "Ayant sorti cependant envers le portail un autre le vit et dit à ceux de là· Celui-ci était avec Iésous du Nazoréen. Et de nouveau nia avec serment en ce que je n'ai pas su l'être humain." },
-            mc: { ref: "Mc 14:69-70a", text: "Et la jeune servante l'ayante vue origina de nouveau dire à ceux ayants dressés à côté en ce que celui-ci du sortant d'eux il est. Celui-ci cependant de nouveau niait." },
-            lc: { ref: "cf. Lc 22:58", text: "" },
-            jn: { ref: "cf. Jn 18:25", text: "" }
+            mt: { ref: "", text: "" },
+            mc: { ref: "Mc 14:69", text: "Et la jeune servante l'ayante vue origina de nouveau dire à ceux ayants dressés à côté en ce que celui-ci du sortant d'eux il est." },
+            lc: { ref: "", text: "" },
+            jn: { ref: "", text: "" }
         }
     },
     {
-        title: "Troisième reniement de Pierre (environ 1h apres le dernier reniement)",
+        title: "",
         passages: {
-            mt: { ref: "Mt 26:73-75", text: "Peu après cependant ayants venus auprès ceux ayants dressés dirent au Pierre· Vraiment toi aussi au sortant d'eux tu es, car aussi ton bavardage te fait évident. Alors se origina anathématiser totalement et jurer en ce que je n'ai pas su l'être humain. Et directement un coq voixa. Et le Pierre fut fait mémoire de l'oral de Iésous ayant dit en ce que avant un coq de voixer trois fois tu me dénieras· Et ayant sorti au-dehors il pleura amèrement." },
-            mc: { ref: "Mc 14:70b-72", text: "Et après un petit de nouveau ceux ayants dressés à côté disaient au Pierre· Vraiment du sortant d'eux tu es, car aussi Galiléen tu es. Celui-ci cependant origina anathématiser et jurer en ce que je n'ai pas su cet être humain-ci lequel vous dites. Et directement au sortant de deuxième fois un coq voixa. Et fut remémoré le Pierre l'oral comme lui dit le Iésous en ce que avant un coq de voixer deux fois trois fois tu me dénieras· Et ayant surjeté il pleurait." },
-            lc: { ref: "cf. Lc 22:59-62", text: "" },
-            jn: { ref: "Jn 18:26-27", text: "Dit – un – issu des mâles-esclaves du chef-sacrificateur, congénital étant duquel découpa Pierre le bout d'oreille· Non moi toi je vis en le jardin avec lui ? De-nouveau donc nia Pierre, et directement coq voixa." }
+            mt: { ref: "Mt 26:71a", text: "Ayant sorti cependant envers le portail" },
+            mc: { ref: "", text: "" },
+            lc: { ref: "", text: "" },
+            jn: { ref: "", text: "" }
+        }
+    },
+    {
+        title: "",
+        passages: {
+            mt: { ref: "Mt 26:71b", text: "une autre [servante] le vit et dit à ceux de là· Celui-ci était avec Iésous du Nazoréen." },
+            mc: { ref: "", text: "" },
+            lc: { ref: "", text: "" },
+            jn: { ref: "", text: "" }
+        }
+    },
+    {
+        title: "",
+        passages: {
+            mt: { ref: "Mt 26:72", text: "Et de nouveau nia avec serment en ce que je n'ai pas su l'être humain." },
+            mc: { ref: "Mc 14:70a", text: "Celui-ci cependant de nouveau niait." },
+            lc: { ref: "cf. Lc 22:58", text: "" },
+            jn: { ref: "cf. Jn 18:25c", text: "" }
+        }
+    },
+    {
+        title: "",
+        passages: {
+            mt: { ref: "Mt 26:73", text: "Peu après cependant ayants venus auprès ceux ayants dressés dirent au Pierre· Vraiment toi aussi au sortant d'eux tu es, car aussi ton bavardage te fait évident." },
+            mc: { ref: "Mc 14:70b", text: "Et après un petit de nouveau ceux ayants dressés à côté disaient au Pierre· Vraiment du sortant d'eux tu es, car aussi Galiléen tu es." },
+            lc: { ref: "cf. Lc 22:59a", text: "" },
+            jn: { ref: "", text: "" }
+        }
+    },
+    {
+        title: "",
+        passages: {
+            mt: { ref: "Mt 26:74", text: "Alors se origina anathématiser totalement et jurer en ce que je n'ai pas su l'être humain. Et directement un coq voixa." },
+            mc: { ref: "Mc 14:71-72a", text: "Celui-ci cependant origina anathématiser et jurer en ce que je n'ai pas su cet être humain-ci lequel vous dites. Et directement au sortant de deuxième fois un coq voixa." },
+            lc: { ref: "cf. Lc 22:60", text: "" },
+            jn: { ref: "cf. Jn 18:27", text: "" }
+        }
+    },
+    {
+        title: "",
+        passages: {
+            mt: { ref: "Mt 26:75", text: "Et le Pierre fut fait mémoire de l'oral de Iésous ayant dit en ce que avant un coq de voixer trois fois tu me dénieras· Et ayant sorti au-dehors il pleura amèrement." },
+            mc: { ref: "Mc 14:72b,c", text: "Et fut remémoré le Pierre l'oral comme lui dit le Iésous en ce que avant un coq de voixer deux fois trois fois tu me dénieras· Et ayant surjeté il pleurait." },
+            lc: { ref: "cf. Lc 22:61-62", text: "" },
+            jn: { ref: "", text: "" }
         }
     },
     {
@@ -660,7 +778,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Jésus devant Hérode (Luc)",
+        title: "Jésus devant Hérode",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "", text: "" },
@@ -678,7 +796,7 @@ const synopsisData = [
         }
     },
     {
-        title: "La femme de Pilate (Matthieu)",
+        title: "La femme de Pilate",
         passages: {
             mt: { ref: "Mt 27:19", text: "D'étant assis cependant lui sur l'estrade sa femme envoya vers lui disante· Non pas un à toi et à ce juste-là· Car nombreux je souffris aujourd'hui selon un rêve par le fait de lui." },
             mc: { ref: "", text: "" },
@@ -696,7 +814,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Pilate se lave les mains (Matthieu)",
+        title: "Pilate se lave les mains",
         passages: {
             mt: { ref: "Mt 27:24-26a", text: "Ayant vu cependant le Pilatus en ce que aucun profite mais davantage tumulte se devient, ayant pris eau se délava les mains depuis l'en-face de la foule disant· Innocent je suis à partir du sang [du juste] de celui-ci· Vous, vous verrez. Et ayant été répondu tout le peuple dit· Son sang sur nous et sur nos enfants. Alors il leur délia-loin le Bar-Abba," },
             mc: { ref: "", text: "" },
@@ -723,7 +841,7 @@ const synopsisData = [
         }
     },
     {
-        title: "Ecce Homo (Jean)",
+        title: "Ecce Homo",
         passages: {
             mt: { ref: "", text: "" },
             mc: { ref: "", text: "" },
